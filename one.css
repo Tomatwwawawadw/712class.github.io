@@ -1,0 +1,50 @@
+p{position:absolute;
+    top: 900px;
+    left:250px;}
+    
+    
+    
+    
+    
+    body{
+     font-family: Roboto;
+     background-color: rgb(255, 187, 0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    
+    
+    
+    }
+      
+    
+    
+    
+    .lodin{background-color: #0500A5;
+    color: white;width: 400px;padding: 40px;box-shadow: 10px 10px 30px black;text-align: center;}
+    .lodin input{display: block;margin: 20px auto;text-align: center;background: none;padding: 12px;font-size: 15px;border-radius:22px ;outline: none;color: white;}
+    
+    
+    .lodin input[type="text"], .lodin input[type="password"]{border: 2px solid skyblue;width: 220px;}
+     
+
+    
+    .lodin input[type="submit"]{width: 150px;border: 2px solid lawngreen;cursor: pointer;}
+    
+    .lodin input[type="text"]:focus, .lodin input[type="password"]:focus {
+    
+    border-color: rgb(13, 153, 247);
+    width: 288px;
+    transition: 0.5s;
+    
+    
+    
+    
+    }
+    
+    .lodin input[type="submit"]:hover{background-color:greenyellow;transition: 0.5s;}
+    select{background-color:white;color: black;}
+    
+    .lodin input[type="button"]:hover{background-color:greenyellow;transition: 0.5s;}
+    select{background-color:white;color: black;}
